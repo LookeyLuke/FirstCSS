@@ -1,0 +1,55 @@
+/*selector {
+    property: value;
+}*/
+* {
+    text-align: left; /*all*/
+}
+body {
+    background-image: url("apple.jpg");
+    background-size: cover;
+}
+h2, p {
+    color: #AA4139;
+    text-align: center;
+    border: 5px dashed rgba(255, 176, 170 , 0.5);
+    cursor: pointer;
+}
+
+h2 p  {
+    color: rgb(57, 170, 72);
+    text-align: center;
+    border: 5px dashed rgba(255, 176, 170 , 0.5);
+    cursor: pointer;
+}
+
+h2 + p :hover {
+    color: rgb(57, 170, 72);
+    text-align: left;
+    border: 5px dashed rgba(255, 176, 170 , 0.5);
+    cursor: pointer;
+}
+
+p {
+    color:pink;
+}
+
+p {
+    color:#0f0bf1be;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+.webtext {
+    border: 5px #5d5bdf77
+}
+
+.active {
+    color: blue;
+}
+
+#div1 {
+    background-color: rgba(243, 7, 192, 0.295)
+}
